@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 # FastAPI backend endpoint
-API_URL = "http://localhost:8000/full-assessment/"
+API_URL = "https://o1a-fastapi.onrender.com/full-assessment/"
 
 st.set_page_config(page_title="O-1A Visa Assessment", layout="centered")
 
