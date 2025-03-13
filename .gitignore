@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+chroma_db/
+
+
+.env
+__pydantic_cache__/
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+.env.*
+
+# Logs and debug
+logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
