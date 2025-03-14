@@ -14,8 +14,6 @@ This repository contains a tool for assessing O-1A visa eligibility based on res
   - [Usage](#usage)
     - [Running the FastAPI Backend](#running-the-fastapi-backend)
     - [Running the Streamlit Frontend](#running-the-streamlit-frontend)
-  - [Project Structure](#project-structure)
-  - [License](#license)
 
 ## Prerequisites
 
@@ -50,6 +48,7 @@ Create a .env file in the root directory and add the following variables:
 ```sh
 GOOGLE_API_KEY=your_google_api_key
 MISTRAL_API_KEY=your_mistral_api_key
+OPENAI_API_KEY=your_openai_api_key
 ```
 Start the FastAPI server:
 ```sh
